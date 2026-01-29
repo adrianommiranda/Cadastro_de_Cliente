@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: Cadastro_de_Cliente
