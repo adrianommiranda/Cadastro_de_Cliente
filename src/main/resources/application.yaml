@@ -1,3 +1,40 @@
 spring:
   application:
     name: Cadastro_de_Cliente
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cadastro 
+    username: postgres
+    password: admin
+    
+    hikari:
+    # pool-name: Define um nome personalizado para o pool de conexões. 
+     pool-name: cadastro-db-pool
+
+     # maximum-pool-size: O número máximo de conexões que o pool pode conter.
+     #Máximo de conexões liberadas
+     maximum-pool-size: 10
+
+     # minimum-idle: O número mínimo de conexões ociosas que o Hikari tentará manter.
+     # Mínimo de conexões que vai ser liberado já no início, tamanho inicial do Pool
+     minimum-idle: 2
+
+     # max-lifetime: O tempo de vida máximo de uma conexão no pool, em milissegundos.
+     # Tamanho máximo de uma conexao, o tempo que deve durar uma conexao, tempo é em milesegundos, vamos colocar 10min
+     max-lifetime: 600000
+
+     # connection-timeout: O tempo máximo, em milissegundos, que a aplicação esperará por uma conexão.
+     connection-timeout: 30000
+  
+  jpa:
+    show-sql: true  #vai mostrar o sql que vai gerar no console
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      format-sql: true  #Formata o SQL impresso para ficar mais legível
+
+
+
+
+
