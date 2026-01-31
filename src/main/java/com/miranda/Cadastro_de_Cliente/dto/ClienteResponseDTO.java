@@ -18,7 +18,7 @@ public class ClienteResponseDTO {
     @Schema(description = "Sobrenome do cliente", example = "Miranda")
     private String sobrenome;
 
-    @Schema(description = "Idade do cliente", example ="14")
+    @Schema(description = "Idade do cliente", example ="25")
     private Integer idade;
 
     @Schema(description = "Alguma observação do cliente", example ="Cliente gosta de futebol")
