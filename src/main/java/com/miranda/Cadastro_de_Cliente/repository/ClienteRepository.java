@@ -54,13 +54,6 @@ public interface ClienteRepository extends JpaRepository<Cliente,Integer>, JpaSp
     void deleteByNomeIgnoreCase(String nomeCliente);
 
 
-    // OUTROS
-
-    // RETORNA O TOTAL DE CLIENTES CADASTRADOS
-    long countAllBy();
-
-
-   
     // BUSCA POR DATA
 
     // BUSCA CLIENTES CADASTRADOS EM UMA DATA ESPECÍFICA
