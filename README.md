@@ -179,7 +179,6 @@ spring:
     show-sql: true
 
 4. Executando a Aplicação
-bash
 
 # Com Maven
 ./mvnw spring-boot:run
