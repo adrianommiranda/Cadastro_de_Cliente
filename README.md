@@ -155,18 +155,19 @@ Antes de começar, certifique-se de ter instalado:
 ## 🚀 Primeiros Passos
 Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-### 1. Configurando o sistema
+### 1. Clonagem do Repositório
 
-1. Clonagem do Repositório
 ```bash
 git clone https://github.com/adrianommiranda/Cadastro_de_Cliente.git
 cd Cadastro_de_Cliente
+```bash
 
 2. Configuração do Banco de Dados
+```bash
 Crie o banco de dados no PostgreSQL:
 
 CREATE DATABASE cadastro;
-
+```bash
 3. Configuração da Aplicação
 Abra o arquivo src/main/resources/application.yaml e configure:
 
