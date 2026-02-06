@@ -160,10 +160,12 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 git clone https://github.com/adrianommiranda/Cadastro_de_Cliente.git
 cd Cadastro_de_Cliente
 
+
 2. Configuração do Banco de Dados
 Crie o banco de dados no PostgreSQL:
 
 CREATE DATABASE cadastro;
+
 
 3. Configuração da Aplicação
 Abra o arquivo src/main/resources/application.yaml e configure:
@@ -178,6 +180,7 @@ spring:
       ddl-auto: update
     show-sql: true
 
+
 4. Executando a Aplicação
 
 # Com Maven
@@ -187,6 +190,7 @@ spring:
 ./mvnw clean package
 java -jar target/Cadastro_de_Cliente-0.0.1-SNAPSHOT.jar
 
+
 🌐 URLs da Aplicação
 
 | Recurso | URL |
@@ -194,6 +198,7 @@ java -jar target/Cadastro_de_Cliente-0.0.1-SNAPSHOT.jar
 | API Base | http://localhost:8080/api/clientes |
 | Swagger UI | http://localhost:8080/swagger-ui.html |
 | OpenAPI JSON | http://localhost:8080/v3/api-docs |
+
 
 🧪 Testando a API
 Requisição POST - Cadastrar Clientes
