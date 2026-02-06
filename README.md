@@ -160,12 +160,12 @@ Antes de começar, certifique-se de ter instalado:
 git clone https://github.com/adrianommiranda/Cadastro_de_Cliente.git
 cd Cadastro_de_Cliente
 
-2. Configuração do Banco de Dados
+### 2. Configuração do Banco de Dados
 Crie o banco de dados no PostgreSQL:
 
 CREATE DATABASE cadastro;
 
-3. Configuração da Aplicação
+### 3. Configuração da Aplicação
 Abra o arquivo src/main/resources/application.yaml e configure:
 
 spring:
