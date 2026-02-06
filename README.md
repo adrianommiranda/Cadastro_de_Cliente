@@ -141,13 +141,6 @@ O sistema possui duas formas de exclusão:
 
 ---
 
-## 🗂️ Diagrama de Entidade-Relacionamento
-
-┌─────────────────────────────────────────┐ │ CLIENTE │ ├─────────────────────────────────────────┤ │ id (PK) │ INTEGER │ │ nome │ VARCHAR(100) │ │ sobrenome │ VARCHAR(100) │ │ idade │ INTEGER │ │ descricao │ TEXT │ │ data_cadastro │ TIMESTAMP │ │ data_atualizacao│ TIMESTAMP │ └─────────────────────────────────────────┘
-
-
----
-
 ## 📋 Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
