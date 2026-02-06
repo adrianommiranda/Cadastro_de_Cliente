@@ -153,19 +153,21 @@ Antes de começar, certifique-se de ter instalado:
 ---
 
 ## 🚀 Primeiros Passos
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-### 1. Clonagem do Repositório
+### 1. Configurando o sistema
 
+1. Clonagem do Repositório
 ```bash
 git clone https://github.com/adrianommiranda/Cadastro_de_Cliente.git
 cd Cadastro_de_Cliente
 
-### 2. Configuração do Banco de Dados
+2. Configuração do Banco de Dados
 Crie o banco de dados no PostgreSQL:
 
 CREATE DATABASE cadastro;
 
-### 3. Configuração da Aplicação
+3. Configuração da Aplicação
 Abra o arquivo src/main/resources/application.yaml e configure:
 
 spring:
